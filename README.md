@@ -1,3 +1,3 @@
 # Feed to TwTxt
 
-A RSS feed to [twtxt](https://github.com/buckket/twtxt) proxy.
+A RSS feed to [TwTxt](https://github.com/buckket/twtxt) proxy.

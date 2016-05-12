@@ -26,6 +26,6 @@ def index():
         timestamp = pytz.utc.localize(_timestamp).isoformat()
 
         tweets.append("{0}\t{1} - <{2}>\n".format(timestamp, entry.title,
-                                                entry.link))
+                                                  entry.link))
 
     return Response(''.join(tweets), mimetype="text/plain")
